@@ -15,13 +15,12 @@ export default function Login() {
     e.preventDefault();
     setError("");
     try {
-      console.log("Attempting login with:", email); // Debug log
       const userCredential = await signInWithEmailAndPassword(
         auth,
         email,
         password
       );
-      console.log("Login successful:", userCredential.user); // Debug log
+
       router.push("/");
     } catch (err: any) {
       console.error("Login error:", err.code, err.message); // Detailed error log

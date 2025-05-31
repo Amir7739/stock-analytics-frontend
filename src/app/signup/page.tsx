@@ -15,13 +15,12 @@ export default function Signup() {
     e.preventDefault();
     setError("");
     try {
-      console.log("Attempting signup with:", email); // Debug log
       const userCredential = await createUserWithEmailAndPassword(
         auth,
         email,
         password
       );
-      console.log("Signup successful:", userCredential.user); // Debug log
+
       router.push("/");
     } catch (err: any) {
       console.error("Signup error:", err.code, err.message); // Detailed error log
