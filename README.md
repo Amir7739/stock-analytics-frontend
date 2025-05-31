@@ -52,3 +52,7 @@ npm install
 npm run dev
 
 
+# Dashboard view
+![image](https://github.com/user-attachments/assets/1d44e78b-3810-401c-bb74-a5c9c772b193)
+
+
