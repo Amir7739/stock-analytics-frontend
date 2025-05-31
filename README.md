@@ -22,7 +22,7 @@ Make sure you have the following installed:
 
 ---
 
-## 📁 Step 1: Clone or Download the Frontend Code
+## 📁 Steps: Clone or Download the Frontend Code
 
 If not already done:
 
