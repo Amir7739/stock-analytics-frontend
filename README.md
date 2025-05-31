@@ -24,6 +24,7 @@ Make sure you have the following installed:
 
 ## 📁 Steps: Clone or Download the Frontend Code
 
+## Step 1: Git clone
 If not already done:
 
 ```bash
